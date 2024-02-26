@@ -1,6 +1,7 @@
 import ExArray from "./ExArray";
 import ExCheckbox from "./ExCheckbox";
 import ExComp from "./ExComp";
+import ExForm from "./ExForm";
 import ExInput from "./ExInput";
 import ExJsx from "./ExJsx";
 import ExUseContext from "./ExUseContext";
@@ -19,7 +20,8 @@ const App = () => {
       {/* <ExUseEffect></ExUseEffect> */}
       {/* <ExUseContext></ExUseContext> */}
       {/* <ExInput></ExInput> */}
-      <ExCheckbox></ExCheckbox>
+      {/* <ExCheckbox></ExCheckbox> */}
+      <ExForm></ExForm>
     </div>
   );
 };
